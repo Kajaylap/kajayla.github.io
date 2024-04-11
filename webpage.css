@@ -1,0 +1,380 @@
+body {
+  background-image: url('background.jpg');
+  margin: 0;
+  padding: 0;
+}
+
+header{
+    background: #d5b086;
+    position: absolute; top: 15px; left: 184px; 
+    height: 200px;
+    width: 1168px;
+
+}
+
+#bodylayout{
+    background: #d5b086;
+    position: absolute; top: 250px; left: 184px; 
+    height: 5700px;
+    width: 1168px;
+
+}
+
+#websitename {
+    font-family: mythfont;
+    font-size: 30px;
+    position: absolute; top:15px; left: 580px;
+    color: black;
+
+    
+}
+
+#logo{
+    position: absolute; top:0px; left: 0px;
+}
+
+#Home {
+    color: black;
+    font-size: 15px;
+    position: absolute; top:260px; left: 218px;
+}
+
+#Gods {
+    color: black;
+    font-size: 15px;
+    position: absolute; top:260px; left: 359px;
+}
+
+#Literature {
+    color: black;
+    font-size: 15px;
+    position: absolute; top:260px; left: 499px;
+}
+
+#Myths {
+    color: black;
+    font-size: 15px;
+    position: absolute; top:260px; left: 758px;
+}
+
+#Gallery {
+    color: black;
+    font-size: 15px;
+    position: absolute; top:260px; left: 933px;
+}
+
+#About {
+    color: black;
+    font-size: 15px;
+    position: absolute; top:260px; left: 1188px;
+}
+
+a:visited{
+    color:black
+}
+a:link {
+    color: black; 
+}
+a:hover {
+    color: goldenrod;
+}
+
+#line {
+    background: rgb(61, 28, 13);
+    position: absolute; top: 350; left: 230px; 
+    height: 7px;
+    width: 683px;
+}
+#line2 {
+    background: rgb(61, 28, 13);
+    position: absolute; top: 350; left: 1000px; 
+    height: 7px;
+    width: 300px;
+}
+
+#line3 {
+    background: rgb(61, 28, 13);
+    position: absolute; top: 1230; left: 1000px; 
+    height: 7px;
+    width: 300px;
+}
+
+#line4 {
+    background: rgb(61, 28, 13);
+    position: absolute; top: 1620; left: 1000px; 
+    height: 7px;
+    width: 300px;
+}
+
+#search {
+    background: #bc9b76;
+    position: absolute; top: 380; left: 1000px; 
+    height: 50px;
+    width: 300px;
+}
+
+#Searchtext{
+    color: rgb(27, 25, 25);
+    position: absolute; top: 368; left: 1015px; 
+    font-size: 24;
+}
+
+p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
+
+#box {
+    background-color:#d5b086 ;
+    box-shadow: 0px 0px 2px 2px rgb(171, 135, 93);
+    height: 270px;
+    width: 585px;
+    padding: 50px;
+    margin: 20px;
+    position: absolute; top: 840; left: 212px; 
+}
+
+#greekgods {
+    position:absolute; top: 895; left: 580;
+}
+
+#learn{
+    color:white;    
+    position: absolute; top: -5px; left: 39px; 
+    font-size: 24;
+}
+
+#learnmore{
+    background: rgb(61, 28, 13);
+    border-radius: 6%;
+    position: absolute; top: 1128; left: 280px; 
+    height: 70px;
+    width: 200px;
+}
+
+#box2 {
+    background-color:#d5b086 ;
+    box-shadow: 0px 0px 2px 2px rgb(171, 135, 93);
+    height: 270px;
+    width: 585px;
+    padding: 50px;
+    margin: 20px;
+    position: absolute; top: 1335; left: 212px; 
+}
+
+#legends {
+    position:absolute; top: 1390; left: 580;
+}
+
+#learn2{
+    color:white;    
+    position: absolute; top: -5px; left: 39px; 
+    font-size: 24;
+}
+
+#learnmore2{
+    background: rgb(61, 28, 13);
+    border-radius: 6%;
+    position: absolute; top: 1618; left: 280px; 
+    height: 70px;
+    width: 200px;
+}
+
+#box3 {
+    background-color:#d5b086 ;
+    box-shadow: 0px 0px 2px 2px rgb(171, 135, 93);
+    height: 270px;
+    width: 585px;
+    padding: 50px;
+    margin: 20px;
+    position: absolute; top: 1830; left: 212px; 
+}
+
+#mythtext {
+    position:absolute; top: 1890; left: 580;
+}
+
+#learn3{
+    color:white;    
+    position: absolute; top: -5px; left: 39px; 
+    font-size: 24;
+}
+
+#learnmore3{
+    background: rgb(61, 28, 13);
+    border-radius: 6%;
+    position: absolute; top: 2125; left: 280px; 
+    height: 70px;
+    width: 200px;
+}
+
+#box4 {
+    background-color:#d5b086 ;
+    box-shadow: 0px 0px 2px 2px rgb(171, 135, 93);
+    height: 270px;
+    width: 585px;
+    padding: 50px;
+    margin: 20px;
+    position: absolute; top: 2325; left: 212px; 
+}
+
+#gene {
+    position:absolute; top: 2380; left: 580;
+}
+
+#learn4{
+    color:white;    
+    position: absolute; top: -5px; left: 39px; 
+    font-size: 24;
+}
+
+#learnmore4{
+    background: rgb(61, 28, 13);
+    border-radius: 6%;
+    position: absolute; top: 2612; left: 280px; 
+    height: 70px;
+    width: 200px;
+}
+
+#genetitle{
+    font-weight:650;
+    color:black;    
+    position: absolute; top: -15px; left: 13px; 
+    font-size: 30;
+}
+
+#mythtitle{
+    font-weight:650;
+    color:black;    
+    position: absolute; top: -15px; left: 13px; 
+    font-size: 30;
+}
+
+#godstitle{
+    font-weight:515;
+    color:black;    
+    position: absolute; top: -15px; left: 13px; 
+    font-size: 30;
+}
+
+#legendstitle{
+    font-weight:650;
+    color:black;    
+    position: absolute; top: -15px; left: 13px; 
+    font-size: 30;
+}
+
+#godsdescription {
+    line-height: 1.8;
+    font-size: 18;
+    color: black;
+    position: absolute; top: 55px; left: 15px; 
+}
+
+#litdescription {
+    line-height: 1.8;
+    font-size: 18;
+    color: black;
+    position: absolute; top: 55px; left: 15px; 
+}
+
+#mythdescription {
+    line-height: 1.8;
+    font-size: 18;
+    color: black;
+    position: absolute; top: 55px; left: 15px; 
+}
+
+#genedescription {
+    line-height: 1.8;
+    font-size: 18;
+    color: black;
+    position: absolute; top: 55px; left: 15px; 
+}
+
+#sidebar {
+    line-height: 2.5;
+    font-size: 21;
+    color: black;
+    position: absolute; top: 426; left: 1001px; 
+
+}
+
+#intro {
+    background-color:#d5b086;
+    height: 90px;
+    width: 300px;
+    position: absolute; top: 450; left: 411px; 
+    border-radius: 30px;
+    
+}
+
+#intro2 {
+    background-color:#d5b086;
+    height: 81px;
+    width: 600px;
+    position: absolute; top: 638; left: 290px; 
+    border-radius: 30px;
+    
+}
+
+#intropic {
+    position: absolute; top:400; left: 177;
+}
+
+#intropic2 {
+    position: absolute; top:400; left: 618;
+}
+
+#omega{
+    position:absolute; top: 543px; left: 527px;
+    
+}
+
+
+#pattern{
+    position:absolute; top: 229px; left: 229px;
+    
+}
+
+#pattern2{
+    position:absolute; top: 229px; left: 558px;
+    
+}
+
+
+#pattern3{
+    position:absolute; top: 600px; left: 229px;
+    
+}
+
+#pattern4{
+    position:absolute; top: 600px; left: 558px;
+    
+}
+
+
+#introfont2{
+    position:absolute; top: 410px; left: 430px;
+    font-size: 37;
+    font-weight: bolder;
+    -webkit-text-stroke: black ;
+    -webkit-text-stroke-width: 5px;
+}
+
+#introfont3{
+    position:absolute; top: 593px; left: 330px;
+    font-size: 37;
+    font-weight: bolder;
+    -webkit-text-stroke: black ;
+    -webkit-text-stroke-width: 5px;
+}
+
+#discussion{
+    position: absolute; top:2800px; left: 250px;
+    line-height: 2.1;
+    font-size: 20;
+    color: black;
+    
+}
